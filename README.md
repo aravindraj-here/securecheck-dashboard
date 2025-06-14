@@ -40,7 +40,6 @@ SecureCheck/
 ├── app.py                  # Main Streamlit dashboard
 ├── traffic_stops.csv       # Original dataset
 ├── cleaned_data.csv        # Cleaned dataset
-├── db_setup.sql            # SQL schema
 ├── README.md               # You're here
 ├── requirements.txt        # Python dependencies
 ```
