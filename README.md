@@ -61,52 +61,6 @@ SecureCheck/
   - stop_duration, drugs_related_stop
   - country_name, vehicle_number
 
-## 🧪 Run Locally
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/SecureCheck.git
-cd SecureCheck
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Connect to Your PostgreSQL DB
-
-Edit `app.py`:
-
-```python
-engine = create_engine("postgresql+psycopg2://<user>:<password>@<host>/<db>")
-```
-
-Or use `.env` for secure storage.
-
-### 4. Launch Streamlit Dashboard
-
-```bash
-streamlit run app.py
-```
-
-## ✅ Sample Use Case
-
-> A 44-year-old female driver was stopped at 16:37 on 2025-06-14.  
-> Predicted violation: **Speeding**  
-> Predicted outcome: **Warning**  
-> Country: **US**
-
-## 🔐 Optional Enhancements
-
-- Add authentication (officer login)
-- Deploy dashboard on Streamlit Cloud
-- Replace simulated prediction with a trained ML model
-- Real-time alerts for flagged vehicles
-
-## 📌 Project Status
 
 ✅ Completed:
 - Data ingestion and cleaning  
@@ -116,18 +70,10 @@ streamlit run app.py
 - Complex queries  
 - Form-based prediction
 
-🚧 In Progress (Optional):
-- ML model integration  
-- Database write-back (logs/predictions)
-
-## 📃 License
-
-MIT License. Use freely for learning, law enforcement education, or demonstration.
-
 ## 🤝 Contributors
 
 - 👨‍💻 Aravind Raj
-- 👩‍🏫 Guided by: GUVI x HCL Capstone Team
+- 👩‍🏫 Guided by: GUVI x HCL Capstone Team,chatGPT
 
 ## 📎 References
 
